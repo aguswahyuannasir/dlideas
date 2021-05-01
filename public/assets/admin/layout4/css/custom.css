@@ -1,0 +1,286 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../../../global/img/preloader.gif) center no-repeat #fff;
+}
+
+
+
+#datatable_ajax th {
+    text-align: center;
+}
+
+#datatable_ajax td {
+    vertical-align: middle;
+}
+
+#site {
+    display: none;
+}
+
+.modal-body {
+    min-height: 80px;
+}
+
+.bordered-custom .form-group{
+    border-top: 1px solid #EFEFEF;
+    border-left: 1px solid #EFEFEF;
+}
+
+.bordered-custom .form-group > div{
+    border-right: 1px solid #EFEFEF;
+}
+
+.bordered-custom .form-group > label{
+    font-weight: 700;
+    text-align: center;
+}
+
+.pp{
+    float: left;
+    margin-top: -8px;
+    margin-right: 7px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.pp > img{
+    width: 100%;
+}
+
+.input-small-x{
+    width: 100px !important;
+    margin-top: 1px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.alert ul{
+    margin-bottom: 0px;
+}
+
+.datatable [class*="field-"]{
+    display: none;
+}
+
+.form-display label{
+    font-weight: 600;
+}
+
+.table-simple th{
+    text-align: center;
+    background-color: #E26A6A;
+    color: white;
+    vertical-align: middle !important;
+}
+
+.table-simple td{
+    vertical-align: middle !important;
+}
+
+.notif-custom{
+    height: 250px;
+}
+
+.details .number{
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
+
+/** The Magic **/
+.btn-breadcrumb .btn:not(:last-child):after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 10px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: 100%;
+    z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 10px solid rgb(232, 232, 232);
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 3;
+}
+
+/** The Spacing **/
+.btn-breadcrumb .btn {
+    padding:6px 12px 6px 24px;
+    border: none;
+    font-size: 11px;
+    color: #2a2a2a;
+}
+.btn-breadcrumb .btn:first-child {
+    padding:6px 6px 6px 10px;
+}
+.btn-breadcrumb .btn:last-child {
+    padding:6px 18px 6px 24px;
+}
+
+.btn-breadcrumb{
+    margin-bottom: 10px;
+}
+
+.btn-breadcrumb .btn:hover{
+    background-color: rgba(237, 237, 239, 0.63);
+}
+
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {
+    border-left: 10px solid #fff;
+}
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {
+    border-left: 10px solid #ccc;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {
+    border-left: 10px solid #ebebeb;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {
+    border-left: 10px solid #dedede;
+}
+
+.profile-usertitle-name{
+    color: #5A7391;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+
+.profile-usertitle-title{
+    color: #7F90A4;
+    font-size: 25px;
+    text-align: center;
+}
+
+.master-game{
+    margin-bottom: 20px;
+}
+
+.btn-edge{
+    position: absolute;
+    right: 0px;
+    top: -8px;
+    font-size: 10px !important;
+    padding: 5px 7px;
+}
+
+.btn-edge-1{
+    position: absolute;
+    right: 30px;
+    top: -8px;
+    font-size: 10px !important;
+    padding: 5px 7px;
+}
+
+.form-add label{
+    font-weight: bold;
+}
+
+.label-xs{
+    font-size: 10px;
+}
+
+.biru1{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #30859a 0%,  #30859a 100%);
+    background: linear-gradient(45deg, #fff 50%, #30859a 0%, #30859a 100%);
+}
+
+.merah{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #ce401c 0%,  #ce401c 100%);
+    background: linear-gradient(45deg, #fff 50%, #ce401c 0%, #ce401c 100%);
+}
+
+.ungu{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #7d649e 0%,  #7d649e 100%);
+    background: linear-gradient(45deg, #fff 50%, #7d649e 0%, #7d649e 100%);
+}
+
+.hijaumuda{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #c4d59f 0%,  #c4d59f 100%);
+    background: linear-gradient(45deg, #fff 50%, #c4d59f 0%, #c4d59f 100%);
+}
+
+.orange{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #ea700d 0%, #ffcb17 100%);
+    background: linear-gradient(45deg, #fff 50%, #ea700d 0%,#ffcb17 100%);
+}
+
+.kuning{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #e7e600 100%, #d5d400 100%);
+    background: linear-gradient(45deg, #fff 50%, #e7e600 0%,#d5d400 100%);
+}
+
+.biru2{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #558bd5 0%,  #558bd5 100%);
+    background: linear-gradient(45deg, #fff 50%, #558bd5 0%, #558bd5 100%);
+}
+
+.pink{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #d99592 0%,  #d99592 100%);
+    background: linear-gradient(45deg, #fff 50%, #d99592 0%, #d99592 100%);
+}
+
+.abu{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #7f7f7f 0%,  #7f7f7f 100%);
+    background: linear-gradient(45deg, #fff 50%, #7f7f7f 0%, #7f7f7f 100%);
+}
+
+.hijautua{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #51622b 0%,  #51622b 100%);
+    background: linear-gradient(45deg, #fff 50%, #51622b 0%, #51622b 100%);
+}
+
+.hijau{
+    background: -webkit-linear-gradient(45deg, #fff 50%, #00af50 0%,  #00af50 100%);
+    background: linear-gradient(45deg, #fff 50%, #00af50 0%, #00af50 100%);
+}
+
+.fa-badge{
+    position: absolute !important;
+    top: -5px !important;
+}

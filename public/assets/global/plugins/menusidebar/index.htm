@@ -1,0 +1,96 @@
+<!doctype html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="iconmenu.css" />
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="iconmenu.js"></script>
+  <script>
+        ddiconmenu.docinit({ // initialize an Icon Menu
+        	menuid:'myiconmenu', //main menu ID
+        	easing:"easeInOutCirc",
+        	dur:500 //<--no comma after last setting
+        })
+      </script>
+      <title>jQuery DD Icon Menu Plugin Demo</title>
+    </head>
+
+    <body>
+
+<!-- Main Icon Menu -->
+
+<ul id="myiconmenu" class="iconmenu">
+  <li><a class="icon-list-ul" href="#" rel="csslibrary"></a></li>
+  <li><a class="icon-search" href="#" rel="ddcontentarea"></a></li>
+  <li><a class="icon-gears" href="#" rel="webtools" title="Web Tools"></a></li>
+  <li><a class="icon-rss" href="#" rel="[title]" title="RSS"></a></li>
+  <li><a class="icon-twitter" href="#" rel="[title]" title="Twitter"></a></li>
+</ul>
+
+<!- CSS Library sub menu -->
+
+<div id="csslibrary" class="iconsubmenu dropdownmenu">
+  <ul class="ulmenu">
+    <li><a href="#" rel="webtools">Web Tools</a></li>
+    <li><a href="#">Horizontal CSS Menus</a></li>
+    <li><a href="#">Vertical CSS Menus</a></li>
+    <li><a href="#">Image CSS</a></li>
+    <li><a href="#">Form CSS</a></li>
+    <li><a href="#">DIVs and containers</a></li>
+    <li><a href="#">Links & Buttons</a></li>
+    <li><a href="#">CSS3 demos</a></li>
+  </ul>
+</div>
+
+<!- General Content sub menu -->
+
+<div id="ddcontentarea" class="iconsubmenu mixedcontent">
+  <p style="margin:5px 0 10px 0"><b>Visit the following main content areas of Dynamic Drive:</b></p>
+  <div class="column">
+    <ul>
+      <li><a href="#">DHTML Scripts</a></li>
+      <li><a href="#">What's New</a></li>
+      <li><a href="#">Revised</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <ul>
+      <li><a href="#" rel="csslibrary">CSS Library</a></li>
+      <li><a href="#">DHTML Forums</a></li>
+      <li><a href="#" rel="webtools">Web Tools</a></li>
+    </ul>
+  </div>
+</div>
+
+<!- Web Tools sub menu -->
+
+<div id="webtools" class="iconsubmenu dropdownmenu">
+  <ul class="ulmenu">
+    <li><a href="#">Image Optimizer</a></li>
+    <li><a href="#">FavIcon Generator</a></li>
+    <li><a href="#">Animated Gif Generator</a></li>
+    <li><a href="#">Email Riddler</a></li>
+    <li><a href="#">.htaccess Password Generator</a></li>
+    <li><a href="#">Gradient Image Maker</a></li>
+    <li><a href="#">.htaccess Banning Generator</a></li>
+    <li><a href="#">Button Maker</a></li>
+    <li><a href="#">Ribbon Rules Generator</a></li>
+  </ul>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
